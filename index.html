@@ -49,13 +49,71 @@
           </ul>
         </address>
 
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
           <use href="./images/mobile.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
       </div>
     </header>
+    <div class="mobile-menu" data-menu>
+      <div class="conainer mobile-menu-container">
+        <button type="button" class="footer-modal-btn" data-menu-close>
+          <svg class="svg-x" width="8" height="8">
+            <use
+              href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
+            ></use>
+          </svg>
+        </button>
+          <nav class="mobile-nav"><a class="mobile-menu-nav">Studio</a></nav>
+          <nav class="mobile-nav"><a class="mobile-menu-nav">Portfolio</a></nav>
+          <nav class="mobile-nav"><a class="mobile-menu-nav">Contacts</a></nav>
+        </div>
+        <address class="contacts-menu">
+          <ul class="contacts-list-menu">
+            <li class="contacts-item-menu">
+              <a class="contacts-link-menu" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item-menu">
+              <a class="contacts-link-menu" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="last-ul-menu">
+            <li class="last-li-menu">
+              <a href="https://www.instagram.com" class="last-link-menu">
+                <svg class="icons-svg-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="last-li-menu">
+              <a href="https://x.com" class="last-link-menu">
+                <svg class="icons-svg-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twit"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="last-li-menu">
+              <a href="https://www.facebook.com" class="last-link-menu">
+                <svg class="icons-svg-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-face"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="last-li-menu">
+              <a href="https://www.linkedin.com" class="last-link-menu">
+                <svg class="icons-svg-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </address>
+    </div>
 
     <main>
       <section class="section-title">
@@ -509,7 +567,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay hidden">
       <div class="modal">
         <button type="button" class="footer-modal-btn">
           <svg class="svg-x" width="8" height="8">
@@ -601,5 +659,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

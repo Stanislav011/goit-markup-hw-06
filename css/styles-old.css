@@ -285,9 +285,10 @@
 .inst-link:hover {
   background-color: #404bbf;
 }
-.icons-svg {
+
+/* .icons-svg {
   fill: #f4f4fd;
-}
+} */
 
 .footer-last {
   font-weight: 400;
@@ -378,20 +379,20 @@ img {
   margin-right: 80px;
 }
 
-.last-ul {
+/* .last-ul {
   display: flex;
   gap: 16px;
-}
+} */
 
-.last-li {
+/* .last-li {
   width: 40px;
   height: 40px;
-}
+} */
 
 .footer-wrapper {
   margin-right: 120px;
 }
-
+/* 
 .last-link {
   width: 100%;
   height: 100%;
@@ -401,7 +402,7 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .last-link:hover,
 .last-link:focus {
@@ -526,25 +527,7 @@ img {
   align-items: center;
 }
 
-.footer-modal-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  background-repeat: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
 
 .footer-modal-btn:hover,
 .footer-modal-btn:focus {
