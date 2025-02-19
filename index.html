@@ -57,7 +57,7 @@
       </div>
     </header>
     <div class="mobile-menu" data-menu>
-      <div class="conainer mobile-menu-container">
+      <div class="container mobile-menu-container">
         <button type="button" class="footer-modal-btn" data-menu-close>
           <svg class="svg-x" width="8" height="8">
             <use
@@ -65,23 +65,29 @@
             ></use>
           </svg>
         </button>
-          <nav class="mobile-nav"><a class="mobile-menu-nav">Studio</a></nav>
-          <nav class="mobile-nav"><a class="mobile-menu-nav">Portfolio</a></nav>
-          <nav class="mobile-nav"><a class="mobile-menu-nav">Contacts</a></nav>
+          <nav class="mobile-nav">
+          <ul class="mobile-nav-w">
+            <li class="mobile-nav"><a class="mobile-menu-nav current" href="./index.html">Studio</a></li>
+            <li class="mobile-nav"><a class="mobile-menu-nav">Portfolio</a></li>
+            <li class="mobile-navq"><a class="mobile-menu-nav">Contacts</a></li>
+          </ul>
+        </nav>
+          <address class="contacts-menu">
         
-        <address class="contacts-menu">
           <ul class="contacts-list-menu">
+            <li class="contacts-item-menu">
+              <a class="contacts-link-menu current" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
             <li class="contacts-item-menu">
               <a class="contacts-link-menu" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contacts-item-menu">
-              <a class="contacts-link-menu" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
           </ul>
+        </address>
+
           <ul class="last-ul-menu">
             <li class="last-li-menu">
               <a href="https://www.instagram.com" class="last-link-menu">
@@ -112,7 +118,6 @@
               </a>
             </li>
           </ul>
-        </address>
       </div>
     </div>
 
@@ -139,7 +144,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="service-title"><b>Strategy</b></h3>
+              <h3 class="service-title">Strategy</h3>
               <p class="service-description">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
